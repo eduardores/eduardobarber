@@ -36,12 +36,11 @@
   gap: 30px;
 }
 
-/* Card Estilo Dark */
 .card {
   background-color: var(--bg-card);
   border: 1px solid #333;
   padding: 20px;
-  border-radius: 4px; /* Bordas menos arredondadas para ficar mais "bruto" */
+  border-radius: 4px; 
   display: flex;
   flex-direction: column;
   transition: transform 0.2s, border-color 0.2s;
