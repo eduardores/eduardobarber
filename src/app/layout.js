@@ -4,7 +4,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Don Corleone Barber Shop",
+  title: "Eduardo Barber",
   description: "Produtos de alta qualidade para barba e cabelo.",
 };
 
