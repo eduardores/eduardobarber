@@ -6,7 +6,6 @@ import ProductCard from "@/components/ProductCard";
 
 export default async function Home() {
   
-  // Note que mudamos os nomes das tabelas no SQL
   const sql = `
     SELECT p.id, p.nome, p.descricao, p.preco, c.nome as categoria 
     FROM barbearia_produtos p 
