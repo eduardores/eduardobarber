@@ -1,0 +1,17 @@
+:root {
+  --bg-dark: #121212;
+  --bg-card: #1e1e1e;
+  --text-primary: #e0e0e0;
+  --text-secondary: #a0a0a0;
+  --gold: #d4af37; /* Dourado clássico */
+}
+
+body {
+  background-color: var(--bg-dark);
+  color: var(--text-primary);
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace; /* Fonte estilo máquina de escrever */
+}
+
+a { text-decoration: none; color: inherit; }
+* { box-sizing: border-box; }
